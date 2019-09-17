@@ -4,11 +4,15 @@
 
 //Code here
 
+var myName = "Cam"
+
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
 //Code here
+
+var myAge = 18
 
 //////////////////PROBLEM 3////////////////////
 
@@ -16,17 +20,23 @@
 
 //Code here
 
+var lovesCode = true
+
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
-//Code here
+//Code here 
+
+var greatestFear = undefined
 
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
 //Code here
+
+var devMountainGoal = null
 
 //////////////////PROBLEM 6////////////////////
 
@@ -37,12 +47,20 @@
 
 //Code here
 
+function declaration(Hello){
+  return (hello);
+}
+
 //////////////////PROBLEM 7////////////////////
 
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-//Code Here
+//Code Here 
+
+function expression(newGreeting){
+  return newGreeting
+}
 
 //////////////////PROBLEM 8////////////////////
 
@@ -50,6 +68,11 @@
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
+var gro1 = "apples";
+var gro2 = "milk";
+var gro3 = "eggs";
+var gro4 = "bread";
+var groceries = [gro1, gro2, gro3, gro4];
 
 //////////////////PROBLEM 9////////////////////
 
@@ -60,6 +83,13 @@
 
 //Code Here
 
+var dog = {
+  name = "Rex", 
+  color = "White", 
+  age = 3, 
+  goodBoy = true
+}
+var dog = devMountainClassPet
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
@@ -76,6 +106,16 @@
 
 // Code here
 
+function nameCheck(){
+  if (name === "Steven"){
+    return 'What is up Steven?'
+  } if (name === "Bryan"){
+    return 'Hey Bryan'
+  } else {
+    return 'Cool name, NAMEPARAM'
+  }
+}
+
 //////////////////PROBLEM 11////////////////////
 
 // Create a function called add that takes in two parameters
@@ -83,6 +123,10 @@
 // The add function should return the two parameters added together
 
 //Code Here
+
+function add(num1, num2){
+  return num1 + num2
+}
 
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
@@ -99,6 +143,18 @@
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
 // Code here
+
+function faveColorFinder(color){
+  if (color === "red"){
+    return 'red is a good color'
+  } if (color === "green"){
+    return 'green is a solid favorite color'
+  } if (color === "black"){
+    return 'so trendy'
+  } else {
+    return 'you need to evaluate your favorite color choice'
+  }
+}
 
 //////////////////PROBLEM 13////////////////////
 
